@@ -9,6 +9,11 @@ Whole trading *strategies* — entry logic, holding rules, and exit discipline �
 | [Breakout](breakout.md) | 🔶 | Real only as a slow, cost-aware channel breakout (effectively trend following); naive intraday "buy the breakout" dies to false breakouts + turnover cost. |
 | [Mean Reversion](mean-reversion.md) | ❌ | In crypto's trending regime, fading extremes = catching a falling knife; net-negative after cost, no edge vs placebo. (Legitimate only in market-neutral pairs/stat-arb.) |
 | [Copy Trading](copy-trading.md) | ❌ | RankIC ≈ 0, survivorship bias, and you fill behind the leader as their exit liquidity — a ranking with zero forward information is not a strategy. |
+| [Buy & Hold (Equal-Weight)](buy-and-hold.md) | ✅ | Sharpe ~1.11 on quality equities, near-zero cost, nothing to overfit — the benchmark every active strategy must beat (most don't). |
+| [Pairs Trading / Stat-Arb](pairs-trading.md) | 🔶 | Real relative-value edge but decayed since ~2002; in crypto, cointegration is unstable, factor shocks hit both legs, and the pair-search overfits. |
+| [Grid Trading](grid-trading.md) | ❌ | Profits in a range, then the trend runs you over while you accumulate the loser; cost on every rung. Only genuine inventory-managed market making is 🔶. |
+| [DCA (Dollar-Cost Averaging)](dca-dollar-cost-averaging.md) | ⚠️/🔶 | Investor DCA is a cash-flow/behavioral tool (loses to lump-sum on expectation, not alpha); leveraged "average-down" bots fail like grids. |
+| [Mega-Cap Factors](mega-cap-factors.md) | ❌ | DSR ≈ 0.004 — factor premia live in small/mid caps; mega-caps are too efficient and a few names have no cross-sectional breadth. |
 
 The survivors all do the same thing: they ride **momentum/persistence** in a slow, cost-aware, selection-aware way, and they diversify into **low-correlation combos** (trend + cross-sectional + carry reaches Sharpe ~1.7). The dead ones either **fight the trend** (mean reversion) or **chase mirages** (copy trading = being someone else's exit liquidity).
 

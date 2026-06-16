@@ -37,6 +37,22 @@ Every strategy/indicator at a glance. Tags: ✅ Validated · ❌ Falsified · �
 | Order Flow Imbalance / VPIN | 🔶 | RankIC ~0.29 is **real** — but it's a maker/sub-second/HFT edge. Retail taker nets ≈ −8bps. Not for you. |
 | Spoofing/absorption detection | 🔶 | Informative for HFT; not executable edge for retail latency. |
 
+## Market mechanics (real mechanism ≠ tradeable edge)
+
+| Topic | Verdict | Evidence |
+|---|---|---|
+| Liquidity hunts / stop hunting (trade the sweep) | ⚠️ real / ❌ as timing | Liquidation cascades and stop pools are real; sweep-fade entries don't beat placebo and bleed on intraday cost. Useful only defensively. |
+| Institutional manipulation, detect-and-trade | ⚠️ real / ❌ as signal | Spoofing/wash/P&D are documented; profitable detection is HFT-latency or post-hoc forensics, not a retail edge. |
+| Wyckoff accumulation/distribution (spring/upthrust) | ❌ as timing / ⚠️ as lens | Phases only labelable in hindsight; subjective and crowded; persistence is better captured by trend following. |
+
+## Chart patterns (extended)
+
+| Pattern | Verdict | Evidence |
+|---|---|---|
+| Triangles / flags / wedges | ❌ | Hindsight "perfect-trade" stats + multiple-testing + 35–50% crypto false-breakout rate; only slow channel breakout (= trend following) survives. |
+| Harmonic patterns (Gartley/Bat/Crab…) | ❌ | Fibonacci tolerance bands fit anything; leg-labeling needs the future; no mechanism, no placebo-beating evidence. |
+| Elliott Wave | ❌ | Unfalsifiable, infinitely revisable counts; look-ahead; nothing objective to backtest or deflate. |
+
 ## Trend, momentum, carry (the survivors)
 
 | Strategy | Verdict | Evidence |
@@ -46,6 +62,8 @@ Every strategy/indicator at a glance. Tags: ✅ Validated · ❌ Falsified · �
 | Funding carry (cash-and-carry: long spot / short perp) | ✅ | Near risk-free funding harvest; very high Sharpe, but real tail risk — size ≤20%. **The cleanest honest edge in crypto.** |
 | Combined (trend + cross-sectional + carry), low mutual correlation | ✅ | Sharpe ~1.7, **DSR 0.93**, drawdown ~−22% — best risk-adjusted form. |
 | Equal-weight buy-and-hold (quality equities) | ✅ | Sharpe ~1.11 — a brutally hard-to-beat baseline. Complexity must prove it beats *this*. |
+| Pairs trading / statistical arbitrage | 🔶 | Real relative-value edge but decayed since ~2002; in crypto, cointegration is unstable, factor shocks hit both legs, and the pair-search overfits (DSR/PBO decisive). |
+| Grid trading / leveraged average-down (DCA bot) | ❌ | Profits in a range then the trend runs you over while you accumulate the loser; cost per rung. Investor DCA (cash-flow/behavioral) is a separate ⚠️/🔶 tool. |
 
 ## Risk management & execution
 
