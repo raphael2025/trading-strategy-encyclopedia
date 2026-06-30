@@ -22,7 +22,7 @@ That volume and range "footprints" reveal large-operator intent before price mov
 Wyckoff phases are defined the same way [chart patterns](../02-chart-patterns/) are, and they inherit the same fatal flaws:
 
 - **Look-ahead bias is structural.** You only *know* a range was "accumulation" after the markup happens; a "spring" is only a spring if price recovers — if it keeps falling it was just a breakdown. Labeling phases on a historical chart is hindsight; timestamped causally, the "signal" disappears. This is the single biggest reason [head & shoulders](../02-chart-patterns/head-and-shoulders.md) and SMC zones fail here.
-- **Subjective and unfalsifiable as stated.** Phase boundaries, which swing is "the" spring, how wide a range "counts" — all are discretionary. A method with that many free choices will always fit the past and rarely beats a [matched placebo](../../METHODOLOGY.md) out-of-sample.
+- **Subjective and unfalsifiable as stated.** Phase boundaries, which swing is "the" spring, how wide a range "counts" — all are discretionary. A method with that many free choices will always fit the past and rarely beats a [matched placebo](../../../METHODOLOGY.md) out-of-sample.
 - **Crowding and cost.** The visible levels (range edges) are exactly where everyone places orders — making them prime [liquidity-hunt](liquidity-hunts.md) targets, not free entries.
 
 We have not run a dedicated Wyckoff backtest (it's hard to even specify causally), but every component that *can* be tested — range-breakout fades, false-breakout reversals, volume-confirmation rules — has failed elsewhere in this repo on look-ahead, placebo, and cost.

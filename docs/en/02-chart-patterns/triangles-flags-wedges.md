@@ -20,7 +20,7 @@ Compression stores "energy"; the breakout releases it into a measurable move. Bu
 
 Note what Bulkowski's own numbers already say: average failure across patterns is ~22–25% (1 in 4–5), and the *worst* common ones (symmetrical triangle, wedge, pennant) are coin-flips. But the deeper problem is *how those stats are produced* and what happens under our gauntlet:
 
-- **"Perfect trade" / hindsight selection.** Bulkowski's stats use cleanly-formed, hand-confirmed patterns. In real time you cannot know a triangle is "valid" (5-touch, no white space) until it has already resolved — that's [look-ahead bias](../../METHODOLOGY.md), the same killer as [head & shoulders](head-and-shoulders.md).
+- **"Perfect trade" / hindsight selection.** Bulkowski's stats use cleanly-formed, hand-confirmed patterns. In real time you cannot know a triangle is "valid" (5-touch, no white space) until it has already resolved — that's [look-ahead bias](../../../METHODOLOGY.md), the same killer as [head & shoulders](head-and-shoulders.md).
 - **Multiple testing.** Dozens of named, tunable patterns × lookbacks guarantee some look great in-sample. Penalize the family with **Deflated Sharpe** and the edge deflates toward zero — selection-aware checks are decisive.
 - **False breakouts + cost.** Crypto false-breakout rates run **35–50%** (vs ~20–25% in stocks) thanks to leverage, fragmented liquidity, and whales hunting the obvious level. Traded intraday with taker fees + slippage, the net result is negative; this is exactly why fast [breakout](../03-strategies/breakout.md) trading is ❌.
 

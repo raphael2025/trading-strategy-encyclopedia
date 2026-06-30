@@ -14,9 +14,9 @@ That if you correctly identify where you are in the wave count, you know whether
 
 Elliott Wave is the canonical example of a theory that *cannot be put through the gauntlet honestly*, which is itself the verdict:
 
-- **Unfalsifiable / infinitely flexible.** The rules permit so many alternate counts (and "extensions," "truncations," "diagonals") that almost any price path can be relabeled after the fact to fit. A theory that can explain every outcome predicts none. This is the opposite of what [our methodology](../../METHODOLOGY.md) requires — a *causal, fixed* rule.
+- **Unfalsifiable / infinitely flexible.** The rules permit so many alternate counts (and "extensions," "truncations," "diagonals") that almost any price path can be relabeled after the fact to fit. A theory that can explain every outcome predicts none. This is the opposite of what [our methodology](../../../METHODOLOGY.md) requires — a *causal, fixed* rule.
 - **Look-ahead by construction.** "We were in wave 3" is a statement you can only make confidently *after* wave 3 completes. Real-time counts routinely get revised, which means the "signal" is a hindsight narrative, not a tradeable trigger — the same flaw as [Wyckoff](../07-market-mechanics/wyckoff-accumulation-distribution.md) and [harmonic patterns](harmonic-patterns.md).
-- **No reproducible edge.** Because two analysts produce different counts on the same chart, there is no objective rule to backtest, no [placebo](../../METHODOLOGY.md) comparison, and no Deflated-Sharpe number. Decades of practice have produced no large-sample, peer-reviewed evidence of an out-of-sample, cost-surviving edge.
+- **No reproducible edge.** Because two analysts produce different counts on the same chart, there is no objective rule to backtest, no [placebo](../../../METHODOLOGY.md) comparison, and no Deflated-Sharpe number. Decades of practice have produced no large-sample, peer-reviewed evidence of an out-of-sample, cost-surviving edge.
 
 ## Verdict: ❌
 

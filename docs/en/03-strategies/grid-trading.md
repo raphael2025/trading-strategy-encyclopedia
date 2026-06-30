@@ -15,7 +15,7 @@ That you don't need to predict direction — you just need volatility within a r
 This is the same animal as [liquidity provision / mean reversion](mean-reversion.md), and it carries the same verdict in the [Verdict Index](../00-verdict-index.md): **❌ in a trend — worse than flat, because the trend runs you over.**
 
 - **Asymmetric payoff against a trend.** A grid sells its winners cheaply (closes longs on small bounces) and *accumulates* its losers (keeps buying all the way down). In crypto's strongly-trending regime that means you're long an ever-larger bag into a sustained decline — catching a falling knife with leverage. The small range profits are dwarfed by the one trend that breaks the band.
-- **No directional edge, and cost on every rung.** Each fill pays fees/slippage; the strategy needs the range to oscillate enough to cover that turnover, and ranges don't announce themselves in advance. You only know it was "range-bound" in hindsight ([look-ahead](../../METHODOLOGY.md)).
+- **No directional edge, and cost on every rung.** Each fill pays fees/slippage; the strategy needs the range to oscillate enough to cover that turnover, and ranges don't announce themselves in advance. You only know it was "range-bound" in hindsight ([look-ahead](../../../METHODOLOGY.md)).
 - **Martingale tail.** The add-on that makes the equity curve look smooth (buy more as it drops) is precisely what converts a drawdown into a liquidation.
 
 ## Verdict: ❌ (🔶 only as genuine range market making)

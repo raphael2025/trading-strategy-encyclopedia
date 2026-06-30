@@ -33,7 +33,6 @@ This repo now folds in three companion bodies of work:
 
 - **[`machine-validated/`](machine-validated/)** — every verdict backed by a reproducible run through the full gauntlet (Deflated Sharpe, PBO/CSCV, walk-forward, block bootstrap). Includes the raw [verdict payloads](machine-validated/results/), per-strategy [reports](machine-validated/reports/), the [live execution PLAYBOOK](machine-validated/PLAYBOOK.md), and the [validation harness code](machine-validated/experiments/). *The honest punchline: across 16 machine-validated strategies, exactly one cleared every gate.*
 - **[`knowledge-base/`](knowledge-base/)** — a deep crypto-perps trading knowledge system (技术分析 / 风控 / 市场机制 / 期权 / 链上 / 订单簿 / Alpha 挖掘), the reference layer under the verdicts.
-- **[`learning/`](learning/)** — a structured contract-trading learning curriculum.
 
 > Together these answer not just *"does strategy X work?"* but *"what survives honest validation, and how do you build the gauntlet yourself?"*
 

@@ -23,7 +23,6 @@
 
 - **[`machine-validated/`](machine-validated/)** —— 每条判决都附**可复现**的完整反过拟合检验（Deflated Sharpe、PBO/CSCV、walk-forward、block bootstrap）：原始 [verdict 数据](machine-validated/results/)、逐策略[报告](machine-validated/reports/)、[实盘 PLAYBOOK](machine-validated/PLAYBOOK.md)、[验证代码](machine-validated/experiments/)。*诚实的结论：16 个机器验证策略里，只有 1 个通过了全部关卡。*
 - **[`knowledge-base/`](knowledge-base/)** —— 加密永续合约交易全知识体系（技术分析 / 风控 / 市场机制 / 期权 / 链上 / 订单簿 / Alpha 挖掘），判决之下的参考层。
-- **[`learning/`](learning/)** —— 结构化的合约交易学习课程。
 
 > 它们一起回答的不只是"策略 X 有没有用"，而是"什么能扛过诚实的验证，以及你怎么自己搭这套验证关卡"。
 
